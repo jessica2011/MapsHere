@@ -6,7 +6,11 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+<<<<<<< HEAD
     "react-google-maps": "^9.4.5",
+=======
+    "react-materialize": "^2.1.2",
+>>>>>>> 5b5edec1d04fdb8b51c72219ba0c0176d53ab8a8
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
