@@ -1,14 +1,17 @@
 import React from 'react';
-import Places from './components/Main'
+import Header from './components/Header'
+import Main from './components/Main'
+import Search from './components/Search'
 import './App.css';
-import Header from './components/header'
+
 
 
 
 const App = () => (
   <div>
-    <Header /> 
-    <Places /> 
+    <Header/> 
+    <Main/>
+    <Search/> 
   </div>
 );
 
