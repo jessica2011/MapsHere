@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from './components/Header'
+import Main from './components/Main'
+import Search from './components/Search'
 import './App.css';
-import Header from './componentes/header';
-import Section from './componentes/section';
+import Section from './components/section';
 
 const App = () => (
   <div>
-    <Header /> 
+    <Header/> 
+    <Main/>
+    <Search/> 
     <Section /> 
   </div>
 );
