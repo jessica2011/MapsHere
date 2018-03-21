@@ -1,10 +1,12 @@
 import React from 'react';
+
 import './App.css';
+import Header from './componentes/header'
 
 
 const App = () => (
   <div>
-    <h1 className="text-center">Hola!!, Wendy del Perú</h1> 
+    <Header /> 
   </div>
 );
 
