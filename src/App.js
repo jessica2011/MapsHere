@@ -1,12 +1,14 @@
 import React from 'react';
 import Places from './components/Main'
 import './App.css';
+import Header from './components/header'
+
 
 
 const App = () => (
   <div>
-    <h1 className="text-center">Hola!!, Wendy del Perú</h1> 
-    <Places/>
+    <Header /> 
+    <Places /> 
   </div>
 );
 
