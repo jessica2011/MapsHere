@@ -44,7 +44,6 @@ class Section extends Component {
         placement="right">
         Here's our small slogan.
       </Slide>
-      <button>hola</button>
     </Slider>
    
     </div>

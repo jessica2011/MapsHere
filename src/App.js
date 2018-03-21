@@ -3,8 +3,6 @@ import './App.css';
 import Header from './componentes/header';
 import Section from './componentes/section';
 
-
-
 const App = () => (
   <div>
     <Header /> 
