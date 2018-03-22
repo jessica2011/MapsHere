@@ -15,36 +15,18 @@ class Home extends Component {
       
       <Slide
         src={Portada}
-        title="This is our big Tagline!">
-        Here's our small slogan.
-        
+        title="Más que un mapa">
       </Slide>
       <Slide
       src={DesiertoHuacachina}
-        title="Left aligned Caption"
-        placement="left">
-        Here's our small slogan.
+        title="Encuentra los lugares que buscabas"
+        placement="center">
       </Slide>
       <Slide
          src={Paracas}
         title="Right aligned Caption"
-        placement="right">
-        Here's our small slogan.
+        placement="center">
       </Slide>
-
-      <Slide
-         src={Huaraz}
-        title="Right aligned Caption"
-        placement="right">
-        Here's our small slogan.
-      </Slide>
-      <Slide
-         src={LagunaHuacachina}
-        title="Right aligned Caption"
-        placement="right">
-        Here's our small slogan.
-      </Slide>
-      <button>hola</button>
     </Slider>
    
     </div>

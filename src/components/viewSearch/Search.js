@@ -40,9 +40,9 @@ render() {
   const { data } = this.state;
 
   return(
-    <div>
+    <div className="form">
       <form onSubmit={this.onSubmit} className="margin-top-0">
-        <input onChange={this.onInputChange} />
+        <input onChange={this.onInputChange} placeholder="Lugares de Lima, ejemplo: banco, hospitales, supermercados" />
       </form>
       <div>
         {data && data.results && data.results.map((item, idx) => (

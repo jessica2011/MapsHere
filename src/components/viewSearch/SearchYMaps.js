@@ -7,10 +7,10 @@ import '../css/Search.css'
 const SearchYMaps = () => (
   <div>
     <Row>
-      <div className="sidenav2 col s6">
+      <div className="sidenav2 col s5">
         <Search/>
       </div>
-      <div className="col offset-s6 s6 ">
+      <div className="col offset-s5 s7 ">
         <Maps/>
       </div>
     </Row>
