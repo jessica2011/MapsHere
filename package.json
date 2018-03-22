@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --config webpack.config.prod.js --progress --profile --colors",
+    "build": "webpack --config webpack.config.dev.js --progress --profile --colors",
     "deploy": " gh-pages -d public"
   },
   "devDependencies": {
