@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.google-map {
+  width: 600px;
+  height: 500px;
+}
