@@ -4,6 +4,7 @@ import Main from './components/Main'
 import Search from './components/Search'
 import './App.css';
 import Section from './components/section';
+import Map from './components/maps';
 
 const App = () => (
   <div>
@@ -11,6 +12,7 @@ const App = () => (
     <Main/>
     <Search/> 
     <Section /> 
+    <Map /> 
   </div>
 );
 
