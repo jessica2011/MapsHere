@@ -45,7 +45,7 @@ render() {
         <button>SEARCH</button>
       </form>
       {data && data.results && data.results.map((item, idx) => (
-        <div key={idx}>{item.title} <span>{item.title}</span> </div>
+        <div key={idx}>{item.title}</div>
       ))}
     </div>
   )
