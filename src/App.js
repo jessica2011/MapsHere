@@ -1,10 +1,9 @@
 import React from 'react';
 import Header from './components/Header'
 import Main from './components/Main'
-import Search from './components/Search'
+// import Search from './components/Search'
 import './App.css';
-import Section from './components/section';
-import Maps from './components/Maps';
+// import Maps from './components/Maps';
 
 
 
@@ -12,9 +11,10 @@ const App = () => (
   <div>
     <Header/> 
     <Main/>
-    <Search/> 
-    <Section /> 
-    <Maps/>
+    {/*
+    <Search/>  */}
+    {/* <Section />  */}
+    {/* <Maps/> */}
   </div>
 );
 

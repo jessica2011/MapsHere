@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/Search.css'
 
 class Search extends Component {
   constructor(props) {
@@ -40,13 +41,20 @@ render() {
 
   return(
     <div>
-      <form onSubmit={this.onSubmit}>
+      <form onSubmit={this.onSubmit} className="margin-top-0">
         <input onChange={this.onInputChange} />
-        <button>SEARCH</button>
       </form>
-      {data && data.results && data.results.map((item, idx) => (
-        <div key={idx}>{item.title}</div>
-      ))}
+      <div>
+        {data && data.results && data.results.map((item, idx) => (
+          <div key={idx} className="caard">
+            <div>
+              <h5>{item.title}</h5>
+              <img className="icon" src="https://image.ibb.co/fO8VNx/placeholder.png" alt={item.title} />
+              <span>{item.highlightedVicinity}</span>           
+            </div>
+          </div>
+        )).reverse()}
+      </div>
     </div>
   )
  }

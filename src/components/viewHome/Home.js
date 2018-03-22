@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Portada from '../assets/images/portada.jpg';
-import DesiertoHuacachina from '../assets/images/desierto-huacachina.jpeg';
-import Paracas from '../assets/images/paracas.jpeg';
-import LagunaHuacachina from '../assets/images/laguna-huacachina.jpeg';
-import Huaraz from '../assets/images/huaraz.jpeg';
+import Portada from '../../assets/images/portada.jpg';
+import DesiertoHuacachina from '../../assets/images/desierto-huacachina.jpeg';
+import Paracas from '../../assets/images/paracas.jpeg';
+import LagunaHuacachina from '../../assets/images/laguna-huacachina.jpeg';
+import Huaraz from '../../assets/images/huaraz.jpeg';
 
 import {Slider, Slide} from 'react-materialize'
 
-class Section extends Component {
+class Home extends Component {
   render () {
     return (
       <div>
@@ -52,4 +52,4 @@ class Section extends Component {
   }
 }
  
-export default Section
+export default Home

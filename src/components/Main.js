@@ -1,37 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import Home from './viewHome/Home'
+import Search from './viewSearch/SearchYMaps'
+// import Schedule from './Schedule'
 
-class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.platform = new window.H.service.Platform({
-      'app_id': 'OGYLftP8d2ca44VEO7PF',
-      'app_code': 'xil_Gm8hAdrTOIHhwDc2rg'
-    });
-    // Obtain the default map types from the platform object:
-    this.defaultLayers = this.platform.createDefaultLayers();
-    this.createMap = this.createMap.bind(this);
-  }
+const Main = () => (
+  <main>
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/search' component={Search}/>
+    </Switch>
+  </main>
+)
 
-  createMap(node) {
-    if (node instanceof HTMLElement) {
-      new window.H.Map(
-        node,
-        this.defaultLayers.normal.map,
-        {
-          zoom: 12,
-          center: { lat: -12.0463731, lng: -77.042754}
-        }
-      );
-    } 
-  }
-
-  render() {
-    return(
-      <div>
-        <div style={{ width: '300px', height: '400px' }} ref={this.createMap}></div>
-      </div>
-    )
-  }
-}
-
-export default Main;
+export default Main
