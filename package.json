@@ -10,11 +10,7 @@
     "react-google-maps": "^9.4.5",
     "react-materialize": "^2.1.2",
     "react-redux": "^5.0.7",
-<<<<<<< HEAD
     "react-router-dom": "^4.2.2",
-=======
-    "react-router-dom": "4.1.1",
->>>>>>> a77bb77e97481c5916f4cc8f4814f22a079d3570
     "react-scripts": "1.1.1",
     "redux": "^3.7.2"
   },

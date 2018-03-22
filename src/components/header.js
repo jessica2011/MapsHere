@@ -12,7 +12,7 @@ class Header extends Component {
             <ul className="right hide-on-med-and-down">
               <li><Link to='/'>Inicio</Link></li>
               <li><Link to='/search'><i className="material-icons left">location_on</i>Lugares</Link></li>
-              <li><a href="sass.html"><i className="material-icons left">add</i>Subir Rutas</a></li>
+              <li><Link to='/subirRuta'><i className="material-icons left">add</i>Subir Rutas</Link></li>
             </ul>
           </div>
         </nav>
